@@ -1,0 +1,14 @@
+<form [formGroup]="proverve" #f="ngForm">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Proverbe N°</label>
+    <input type="number" class="form-control" formControlName="id" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Proverbe</label>
+    <textarea type="text" class="form-control"  formControlName="proverbe"
+    placeholder="Rester soi-même dans un monde qui tente constamment de te changer est le plus grand accomplissement.">
+  </textarea>
+  </div>
+  <button type="submit" (click)="ajouter()"  class="btn btn-primary" [disabled]="f.invalid">AJOUTER</button>
+</form>

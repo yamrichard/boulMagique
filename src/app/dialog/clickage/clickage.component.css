@@ -1,0 +1,19 @@
+button.boul
+{
+  background-color: orange;
+  color: #030001;
+  font-weight: bold;
+  font-size: 70px;
+  size: 70px;
+  border-radius: 50px 50px 10px 50px;
+  border: black 4px solid;
+  padding: 2%;
+
+}
+
+.milieu
+{
+  margin-top: 1%;
+  margin-left: 25%;
+  padding: 2%;
+}
